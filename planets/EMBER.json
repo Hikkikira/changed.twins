@@ -3,7 +3,7 @@
 	"Sand" : 
 	{
 		"size": 140,
-		"curve" :[{"time": 1, "value": 0.35}, {"time": 7, "value": 1}, {"time": 7.33, "value": 1}, {"time": 14, "value": 0.35}, {"time": 14.66, "value": 0.35}, {"time": 21, "value": 1}, {"time": 21.99, "value": 1}]
+		"curve" :[{"time": 1, "value": 0}, {"time": 7, "value": 1}, {"time": 7, "value": 1}, {"time": 14, "value": 0}, {"time": 14.66, "value": 0}, {"time": 21, "value": 1}, {"time": 21.99, "value": 1}, {"time": 29, "value": 0}, {"time": 29.32, "value": 0}]
 	},
 	"childrenToDestroy": ["SandSphere_Rising"],
 	"Funnel" :
@@ -17,7 +17,9 @@
 			{"time": 14, "value": 1},
 			{"time": 14.66, "value": 0},
 			{"time": 21, "value": 0},
-			{"time": 21.99, "value": 0}
+			{"time": 21.99, "value": 0},
+			{"time": 29, "value": 1},
+			{"time": 29.32, "value": 0}
 		         ]
 	}
 }
