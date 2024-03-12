@@ -3,7 +3,7 @@
 	"Sand" : 
 	{
 		"size": 150,
-		"curve" :[{"time": 1, "value": 1}, {"time": 11.5, "value": 0}, {"time": 12, "value": 0}, {"time": 21, "value": 1}]
+		"curve" :[{"time": 1, "value": 1}, {"time": 7, "value": 0}, {"time": 7.33, "value": 0}, {"time": 14, "value": 1}, {"time": 14.66, "value": 1}, {"time": 21, "value": 0}, {"time": 22, "value": 0}]
 	},
 	"childrenToDestroy" : ["SandSphere_Draining"],
 	"Funnel" :
@@ -12,10 +12,12 @@
 		"type" : "Sand",
 		"curve" :[
 			{"time": 1, "value": 1},
-			{"time": 11.5, "value": 1},
-			{"time": 12, "value": 0},
-			{"time": 12.5, "value": 0},
-			{"time": 21, "value": 0}
+			{"time": 7, "value": 1},
+			{"time": 7.33, "value": 0},
+			{"time": 14, "value": 0},
+			{"time": 14.66, "value": 1},
+			{"time": 21, "value": 1},
+			{"time": 22, "value": 0}
 		         ]
 	}
 }
